@@ -3,8 +3,8 @@ pipeline {
     stages {
         stage('SCM') {
             steps {
-                echo 'Checkout https://github.com/blitznihar/app-terraform-api.git'
-                git url: 'https://github.com/blitznihar/app-terraform-api.git'
+                echo 'Checkout https://github.com/blitznihar/springboot-camel-restlet-sql.git'
+                git url: 'https://github.com/blitznihar/springboot-camel-restlet-sql.git'
             }
         }
         stage('Build') {
